@@ -1,6 +1,6 @@
 Name:		mnotepad
 Version:	0.5
-Release:	%mkrel 1
+Release:	%mkrel 2
 %define netbeansdir             %{_prefix}/lib/netbeans
 %define nbjfuguesupportdir      %{_prefix}/lib/mnotepad
 
@@ -13,7 +13,7 @@ Source0:        nbjfuguesupport-%{version}.zip
 Source1:        mnotepad.sh
 Epoch:		0
 BuildArch:	noarch
-BuildRequires:	jpackage-utils >= 1.6
+BuildRequires:	java-rpmbuild >= 1.6
 BuildRequires:	libnb-platform7 >= 6.0
 BuildRequires:	libnb-platform7-devel >= 6.0
 Requires:	libnb-platform7 >= 6.0
