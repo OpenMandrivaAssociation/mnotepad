@@ -33,8 +33,9 @@ the Palette). The JFugue API knows what to do with this string and, when
 File > Play is selected, the JFugue API plays the note. When File > Save 
 is selected, the complete content of the Editor, which contains all the JFugue 
 music strings in the order in which they were added, is played and then saved 
-as a MIDI file. When a new instrument is selected, a related string is added to 
-the editor, and all subsequent notes are played by the last selected instrument.
+as a MIDI file. When a new instrument is selected, a related string is added to
+the editor, and all subsequent notes are played by the last selected
+instrument.
 
 
 %prep
