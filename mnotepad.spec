@@ -8,6 +8,7 @@ Summary:        Music Notepad based on JFugue
 License:        CDDL
 Url:            https://nbjfuguesupport.dev.java.net/
 Group:		Sound
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 #
 Source0:        nbjfuguesupport-%{version}.zip
 Source1:        mnotepad.sh
