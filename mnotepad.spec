@@ -1,6 +1,6 @@
 Name:		mnotepad
 Version:	0.5
-Release:	%mkrel 2
+Release:	%mkrel 4
 %define netbeansdir             %{_prefix}/lib/netbeans
 %define nbjfuguesupportdir      %{_prefix}/lib/mnotepad
 
