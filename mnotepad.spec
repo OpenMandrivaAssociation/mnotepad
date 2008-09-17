@@ -42,7 +42,7 @@ instrument.
 %prep
 %{__rm} -fr %{buildroot}
 %setup -q -c -n %{name}-%{version}
-%remove_java_binaries
+%remove_java_binaries || :
 
 %{__mkdir_p} nbjfuguesupport-0.5/jfugue/release/modules/ext/
 %{__ln_s} %{_javadir}/jfugue.jar nbjfuguesupport-%{version}/jfugue/release/modules/ext/jfugue.jar
