@@ -15,8 +15,8 @@ Source1:        mnotepad.sh
 Epoch:		0
 BuildArch:	noarch
 BuildRequires:	java-rpmbuild >= 1.6
-BuildRequires:	libnb-platform8 >= 6.0
-BuildRequires:	libnb-platform8-devel >= 6.0
+BuildRequires:	libnb-platform7 >= 6.0
+BuildRequires:	libnb-platform7-devel >= 6.0
 Requires:	libnb-platform7 >= 6.0
 Requires:	jfugue >= 3.2
 BuildRequires:	jfugue >= 3.2
